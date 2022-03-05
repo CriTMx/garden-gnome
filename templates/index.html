@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>Project Garden Gnome</title>
+    <!-- CSS CUSTOM -->  
+    <link rel="stylesheet" href="{% static 'css/hackhub.css' %}" />
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<nav>
+    <ul class="navlist">
+        <li class="navlistel">
+        <img id="logo" src="{% static 'garden_gnome_logo.png' %}">
+        </li>
+
+        <li class="navlistel">
+        <a href="index">Home</a>
+
+        </li>
+        <li class="navlistel">
+        <a href="about">About</a>
+        </li>
+        <li class="navlistel"><img id="hhlogo" src="{% static 'hackhub.png' %}"> </li>
+    </ul>
+
+        
+</nav>
+    <div class="madeby">
+    <p> Made By: </p>
+    <p> Shlok Aditya Tripathy </p>
+    <p>Kriti Agarwal </p>
+
+</div>
+
+<div class="left">
+    <img class="plantimg" src="{% static 'Lovepik_com-832238569-Cartoon hand drawn potted plant vector.png' %}">
+
+
+</div>
+
+<div class="form-container">
+    <form method="post" action="/index">
+    {% csrf_token %}
+        <div class="form-group">
+            <br><br><label for="city"> City: </label><br><br>
+            <input class="text_input" id="cityinput" name="city" type="text">
+        </div>
+        <div class="form-group">
+            <br><br><label for="crop"> Plant: </label><br><br>
+            <input class="text_input" id="cropinput" name="crop" type="text">
+        </div>
+        <div>
+
+            <button id="submit">Submit</button>
+
+        </div>
+
+        </div>
+    </form>
+</div>
+
+
+<div class="factor_container">
+
+    <ul class="factors" id="drop">
+
+        <li class="factor_le">
+            <img class="factorimg" src="{% static 'drop.png' %}">
+        </li>
+
+        <li class="factor_text factor_le">
+            <p id="humIdeal"> Ideal: {{idealHumRange}} </p>
+            <p id="humCurrent"> Current: {{curHum}} </p>
+            <p id="humText"> {{humText}} </p>
+        </li>
+
+    </ul>
+
+    <ul class="factors" id="sun">
+        <li class="factor_le">
+            <img class="factorimg" src="{% static 'sun.png' %}">
+        </li>
+
+            <li class="factor_text factor_le">
+                <p id="sunIdeal"> Ideal: {{idealSky}} </p>
+                <p id="sunCurrent"> Current: {{curSky}} </p>
+                <p id="sunText"> {{skyText}} </p>
+            </li>
+    </ul>
+
+    <ul class="factors" id="thermometer">
+        <li class="factor_le">
+            <img class="factorimg" src="{% static 'thermometer.png' %}">
+        </li>
+        <li class="factor_text factor_le">
+            <p id="tempIdeal"> Ideal: {{idealTempRange}} </p>
+            <p id="tempCurrent"> Current: {{curTemp}} </p>
+            <p id="tempText"> {{tempText}} </p>
+        </li>
+
+    </ul>
+
+</div>
+
+
+
+</body>
+</html>

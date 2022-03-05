@@ -1,2 +1,1 @@
-# garden-gnome
-Project Garden Gnome for HackHub2022
+# HackHub2022

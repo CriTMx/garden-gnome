@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <title>About</title>
+    <link rel="stylesheet" href="{% static 'css/about.css' %}">
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div id="blue_circle"></div>
+<img id="plantimg"src="{% static 'frontpage.png' %}">
+
+<div class="rectangle_span" id="yellow_rectangle">
+
+    <div class="allstext">
+<h3 class="subheadings" id="structure">Structure of the project</h3>
+
+<p id="structure_text"> Project Garden Gnome is a simplistic web app made with Django and Python. Using the python-weather module, we provide information that can help people with green thumbs take better care of their plants!</p>
+
+        </div>
+
+    <div class="circle" id="white_circle"> <img id="plant2" src="{% static 'plant2.png' %}" > </div>
+</div>
+
+
+
+<div class="rectangle_span" id="white_rectangle">
+
+    <h3 class="subheadings" id="functionality">What it does?</h3>
+
+<p id="functionality_text">Get live weather information and know whether the plant you may wish to grow is having a good time with the weather or not! Also, get tips to help your green friend be in a better mood.</p>
+    <div class="square" id="blue_square"> <img id="plant3" src="{% static 'plant3.png' %}" ></div></div>
+
+
+
+
+
+<div class="rectangle_span" id="grey_rectangle"> <img id="hhlogo" src="{% static 'hackhub.png' %}"></div>
+
+</body>
+</html>

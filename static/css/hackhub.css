@@ -1,0 +1,124 @@
+body{
+position:relative;
+font-family: 'Kumbh Sans', sans-serif;
+font-weight: bold;
+padding:0px;
+margin:0px;
+}
+
+nav{
+padding: 20px;
+background: #DCE4F9;
+border:0px;
+margin:0px;
+}
+
+.factor_container{
+margin: 30px;
+display: grid;
+row-gap: 5px;
+width:100px;
+}
+
+.form-group{
+position:sticky;
+left: 10%;
+width: 50%;
+}
+
+.text_input{
+width: 262px;
+height: 45px;
+padding:3px;
+border-radius: 8px;
+background: #E8E8E8;
+border-width: 0px;
+}
+
+#submit{
+margin-top:30px;
+position: sticky;
+left:10%;
+width: 76px;
+height: 33px;
+background: #E8E8E8;
+border-radius: 8px;
+border-width: 0px;
+font-family: 'Kumbh Sans', sans-serif;
+font-weight: bold;
+}
+
+.factors{
+position:relative;
+height:200px;
+width:400px;
+}
+
+.factor_le{
+display:inline;
+margin:5px;
+}
+.factorimg{
+position:relative;
+height:70px;
+width:70px;
+top: 10%;
+}
+
+.factor_text{
+position:absolute;
+}
+
+#drop{
+grid-column-start:1;
+grod-column-end:2}
+
+#sun{
+grid-column-start:2;
+grod-column-end:3;
+}
+
+#thermometer{
+grid-row-start:2;
+grid-row-end:3;
+grid-column-start:1;
+grod-column-end:2
+}
+
+.plantimg{
+height:800px;
+width:800px;
+float:right;
+}
+
+.madeby{
+float:right;
+float:top;
+text-align: right;
+margin:30px;
+}
+
+.left{
+position:relative;}
+
+#submit:active{
+background:#C2BFBF}
+
+#logo{
+height:55px;
+}
+
+#hhlogo{
+float:right;
+}
+
+a{
+color:black;
+text-decoration:none;
+margin: 0px 10px 0px 10px;
+}
+
+.navlistel{
+align:auto;
+display:inline;
+}

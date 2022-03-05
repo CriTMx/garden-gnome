@@ -1,0 +1,107 @@
+body{
+font-family: 'Kumbh Sans', sans-serif;
+margin:0px;
+}
+
+.rectangle_span{
+width:1900px;
+}
+
+.circle{
+height:50px;
+width:50px;
+border-radius:50%;
+background: white;
+}
+
+#yellow_rectangle{
+margin:0px;
+background: #F9F4DC;
+padding: 30px;
+width:100%;
+height:400px;
+}
+
+#plantimg{
+width:1900px;
+margin:0px;
+}
+
+#grey_rectangle{
+width:1900px;
+background: #BABABA;
+height: 150px;
+}
+
+#blue_square{
+float: left;
+width:350px;
+height:350px;
+background:#DCE4F9;
+transform: rotate(20deg);
+}
+
+#white_circle{
+width:400px;
+height:400px;
+background: white;
+float: right;
+float:top;
+border-radius: 50%;
+}
+
+#white_rectangle{
+height: 400px;
+padding: 30px;
+}
+
+#structure{
+text-align:left;
+}
+
+#structure_text{
+font-size:20px;
+margin:30px;
+text-align:left;
+width: 40%;}
+
+#functionality{
+text-align:right;}
+
+#functionality_text{
+float:right;
+margin:30px;
+text-align: right;
+font-size:20px;
+width: 40%;
+}
+
+.subheadings{
+font-size:50px;
+margin:20px;
+font-weight:semi-bold;
+}
+
+.allstext{
+margin-top: 10px;
+margin-right: 20px;
+float:left;
+}
+
+#plant2{
+position:relative;
+width:400px;
+height:400px;
+}
+
+#plant3{
+position:relative;
+width:300px;
+height:300px;
+align:auto;
+}
+
+#hhlogo{
+margin:50px;
+float:right;
+}

@@ -1,0 +1,19 @@
+seedName,tempLow,tempHigh,humLow,humHigh,seedSunlight
+Mustard,10,25,0,10,moderate
+Chilli Pepper,26,30,50,70,high
+Onion,15,25,65,70,moderate
+Guava,20,27,20,50,moderate
+Tomato,20,25,50,70,high
+Potato,7,13,90,95,high
+Bellpepper,25,30,50,60,moderate
+Carrot,15,20,85,95,low
+Strawberry,1,30,85,95,high
+Watermelon,25,30,60,80,high
+Lemon,20,30,50,60,high
+Pumpkin,21,32,70,75,high
+Aloe Vera,15,30,0,40,moderate
+Avocado,15,30,60,80,high
+Radish,4,21,95,100,high
+Beetroot,15,20,95,100,moderate
+Garlic,0,20,45,50,moderate
+Ginger,20,30,70,90,moderate
