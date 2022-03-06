@@ -4,7 +4,7 @@ import asyncio
 import csv
 
 def getDict(crop):
-    seedListFile=open('D:\GitHub Things\kritisHackHub2022\hackhub2022\static\seedList.csv',newline='')
+    seedListFile=open('hackhub2022\static\seedList.csv',newline='')
     seedList=csv.DictReader(seedListFile)
     for row in seedList:
         if row["seedName"] == crop:
@@ -17,7 +17,7 @@ def tempCompare(crop,city):
     if int(row["tempHigh"])>=curTemp>=int(row["tempLow"]):
         return "Ideal temperature"
     elif curTemp>int(row["tempHigh"]):
-        return "Temperature higher than ideal. Use air conditioning"
+        return "Temperature higher than ideal. Use air conditioning or cool with sprinklers"
     else:
         return "Temperature lower than ideal. Use heating"
 
