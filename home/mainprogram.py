@@ -4,7 +4,7 @@ import asyncio
 import csv
 
 def getDict(crop):
-    seedListFile=open('hackhub2022\static\seedList.csv',newline='')
+    seedListFile=open('home\seedList.csv',newline='')
     seedList=csv.DictReader(seedListFile)
     for row in seedList:
         if row["seedName"] == crop:
